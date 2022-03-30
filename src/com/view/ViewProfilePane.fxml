@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="327.0" layoutY="34.0" text="Your Profile">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="151.0" layoutY="82.0" prefHeight="600.0" prefWidth="500.0" vgap="8.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="First Name">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Last Name" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Cid" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Date of Birth" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Telephone" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Address" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label text="Street Address" GridPane.rowIndex="6">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="City" GridPane.rowIndex="7">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="State" GridPane.rowIndex="8">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Zip Code" GridPane.rowIndex="9">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Country" GridPane.rowIndex="10">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="firstNameLabel" text="First Name" GridPane.columnIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lastNameLabel" text="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="cidLabel" text="Cid" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="dobLabel" text="Date of Birth" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="phoneLabel" text="Telephone" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="streetLabel" text="Street" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="cityLabel" text="City" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="stateLabel" text="State" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="zipCodeLabel" text="Zip Code" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="countryLabel" text="Country" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Account Information" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label text="Username" GridPane.rowIndex="12">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameLabel" text="Username" GridPane.columnIndex="1" GridPane.rowIndex="12">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Account Status" GridPane.rowIndex="13">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="accStatusLabel" text="Password" GridPane.columnIndex="1" GridPane.rowIndex="13">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

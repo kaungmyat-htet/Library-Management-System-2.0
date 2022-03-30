@@ -1,9 +1,6 @@
 package com.model;
 
-import javax.security.auth.Subject;
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.List;
 
 public class Book {
     private final String isbn;

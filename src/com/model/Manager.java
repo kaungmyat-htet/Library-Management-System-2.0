@@ -1,8 +1,8 @@
 package com.model;
 
 public class Manager extends Librarian{
-    public Manager(String firstName, String lastName, Account account) {
-        super(firstName, lastName, account);
+    public Manager(Person personInfo, Account account) {
+        super(personInfo, account);
     }
 
     public void addLibrarian(Librarian newLibrarian) {

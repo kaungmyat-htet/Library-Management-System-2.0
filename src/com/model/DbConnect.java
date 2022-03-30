@@ -1,13 +1,15 @@
 package com.model;
 
 import java.sql.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Locale;
+import java.util.Optional;
 
 public class DbConnect {
-    private static final String URL = "jdbc:postgresql://localhost:5432/library_management";
-    private static final String DEFAULT_USERNAME = "postgres";
-    private static final String DEFAULT_PASSWORD = "2022";
+    public static final String URL = "jdbc:postgresql://localhost:5432/library_management";
+    public static final String DEFAULT_USERNAME = "postgres";
+    public static final String DEFAULT_PASSWORD = "2022";
 
     public void testConnection() throws Exception {
         try (Connection connection = DriverManager.getConnection(URL, DEFAULT_USERNAME, DEFAULT_PASSWORD);
